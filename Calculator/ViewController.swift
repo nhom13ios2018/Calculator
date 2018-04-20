@@ -10,16 +10,37 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var outputLbl: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func numberPressed(_ sender: RoundButton) {
     }
-
-
+    
+    @IBAction func allClearPressed(_ sender: RoundButton) {
+    }
+    
+    @IBAction func dotPressed(_ sender: RoundButton) {
+    }
+    
+    @IBAction func equalPressed(_ sender: RoundButton) {
+    }
+    
+    @IBAction func addPressed(_ sender: RoundButton) {
+    }
+    
+    @IBAction func subtractPressed(_ sender: RoundButton) {
+    }
+    
+    @IBAction func multiplyPressed(_ sender: RoundButton) {
+    }
+    
+    @IBAction func dividePressed(_ sender: RoundButton) {
+    }
+    
+    
 }
 
